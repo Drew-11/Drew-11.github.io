@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<title>Nameless</title>
+
+ 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJCC0UuL1quW1tz93wX_bvON2Z7EmAA">
+</script>
+
+
+
+<script>
+var map;
+
+function initialize() {
+  map = new google.maps.Map(document.getElementById("mainMap"), {zoom:8, center: {lat: 36.1, lng: -86.78} });
+
+
+
+
+}
+
+</script>
+
+</head>
+
+
+<body onload="initialize();">
+<div class="header">
+  <h1>Nashville Food Trucks</h1>
+</div>
+<p id="intro"> This is a map of Nashville's Foodtrucks</p>
+<div id ="mainMap"></div>
+
+<style>
+
+body {background-color: #446293;}
+.header{color:white; text-align:center;}
+#intro{color: white; text-align:center; text-indent: 50px;}
+#mainMap{height:80%; width 100%, padding: 50;}
+
+
+</style>
+
+
+</body>
+
+</html>
+
