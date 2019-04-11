@@ -24,7 +24,7 @@ function addPoint(event) {
       position: event.latLng,
       map: map,
     });
-  }
+    add = false  }
 }
 
 
@@ -58,6 +58,8 @@ add = true;
 <style>
 
 body {background-color: #446293;}
+.bttnAdd{color: green; };
+.bttnDir{color: yellow: };
 .header{color:white; text-align:center;}
 #intro{color: white; text-align:center; text-indent: 50px;}
 #mainMap{height:80%; width 100%, padding: 50;}
