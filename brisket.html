@@ -20,7 +20,7 @@
               z-index: 1;
               min-width: 600px;
             }
-      .pic {
+      .img {
              max-height: 100%;
              display: inline-block;
              position: relative;
@@ -28,7 +28,6 @@
              }
       .text {
               position: relative;
-              border: 1px solid black;
               top: 0;
               height: 95%;
               width: 10%;
@@ -48,17 +47,23 @@
                position: relative; 
                top: 50px; 
                text-align: center;
-               background-color: red; 
+               background-color: black; 
+               color: #800000;
                padding: 0;
                }
-      div.test {
+               div.test { 
+                   position: relative;
                    min-width: 200px;
-                   margin: 0px;
-      }
+                   margin: 0 0;
+                   vertical-align: top;
+                   border: 1px solid black;
+                   top: 50px;
+                 
+           }
       div.menu {
               position: relative; 
               display: inline-block;
-              top: 50px;
+             border: 1px solid black;
               right: 0px;
               width: 50%; 
               height: auto;
@@ -66,25 +71,39 @@
               margin: 0px;
               margin-right: 0px;
               margin-left: 0px;
+              margin-bottom: 0px;
               padding: 0px;
               object-fit: cover;
+              vertical-align: top;
               
               }
-      a.border {  position: relative;
-                 display: inline-block;
-                 margin: 0px;
-                 padding: 0px;
-                 vertical-align:top;
+      a.border { position: relative; 
+              display: inline-block;
+             
+              right: 0px;
+              width: 50%; 
+              height: auto;
+              min-width: 100px;
+              margin: 0px;
+              margin-right: 0px;
+              margin-left: 0px;
+              margin-bottom: 0px;
+              padding: 0px;
+              object-fit: cover;
+              vertical-align: top; 
+             
+            
                 }
-       img.food {
+       .food {
              display: block;
              position: static;
               width: 100%; 
               height: auto;
               min-width: 100px;
+              object-fit: cover;
               
               }
-      p.picLabel {
+      .pic {
                  display: block;
                  position: absolute;
                  top: 50%; 
@@ -95,25 +114,12 @@
                  padding: 0px;
                  transform: translate(-50%, -50%);
                  }
-           
-                 
-          
-      
-      
-    </style>
-  </head>
-  <body>
-
-  <head>
-    <style>
-      
-      
       
     </style>
   </head>
   <body>
     <div id = "bar">
-      <img class ="pic" src="music_city.png"height = "100">
+      <img class ="img" src="music_city.png"height = "100">
       <a class = "text">  Home </a>
       <a class = "text"> Menu </a>
       <a class = "text" > Schedule </a>
@@ -121,26 +127,31 @@
     </div>
     <div class = "title">
       <h2> Music City Brisket </h2>
+      <p> Homemade Texas Style Barbecue 
+      
+      </p>
     </div>
     <div class = "test">
-    <div class = "menu">
-      <a class = "border" href="https://www.google.com"> 
-      <img  class = "food" src = "https://static.wixstatic.com/media/b9f28a_3eb4b8482ac44738b1721967c5be8c99.jpg/v1/fill/w_933,h_530,al_c,q_90,usm_0.66_1.00_0.01/b9f28a_3eb4b8482ac44738b1721967c5be8c99.webp"> <p class ="picLabel"> menu <p>  </a>
-    </div><!--
+    <a class = "border" href="https://www.google.com"> 
+    <img  class = "food" src = "https://static.wixstatic.com/media/b9f28a_3eb4b8482ac44738b1721967c5be8c99.jpg/v1/fill/w_933,h_530,al_c,q_90,usm_0.66_1.00_0.01/b9f28a_3eb4b8482ac44738b1721967c5be8c99.webp"> <p class ="pic"> Menu </p>  </a><!--
     
-   --><div class = "menu">
-      <a class = "border" href="https://www.google.com"> 
-      <img  class = "food" src = "https://static.wixstatic.com/media/b9f28a_3eb4b8482ac44738b1721967c5be8c99.jpg/v1/fill/w_933,h_530,al_c,q_90,usm_0.66_1.00_0.01/b9f28a_3eb4b8482ac44738b1721967c5be8c99.webp"> <p class ="picLabel"> menu <p>  </a>
-    </div><!--
+   --><a class = "border" href="https://www.google.com"> 
+   <img  class = "food" src = "https://static.wixstatic.com/media/b9f28a_3eb4b8482ac44738b1721967c5be8c99.jpg/v1/fill/w_933,h_530,al_c,q_90,usm_0.66_1.00_0.01/b9f28a_3eb4b8482ac44738b1721967c5be8c99.webp"> <p class ="pic"> Schedule </p>  </a><!--
     
-   --><div class = "menu">
-      <a class = "border" href="https://www.google.com"> 
-      <img  class = "food" src = "https://static.wixstatic.com/media/b9f28a_3eb4b8482ac44738b1721967c5be8c99.jpg/v1/fill/w_933,h_530,al_c,q_90,usm_0.66_1.00_0.01/b9f28a_3eb4b8482ac44738b1721967c5be8c99.webp"> <p class ="picLabel"> menu <p>  </a>
-    </div>
+    --><a class = "border" href="https://www.google.com"> 
+    <img  class = "food" src = "https://static.wixstatic.com/media/b9f28a_3eb4b8482ac44738b1721967c5be8c99.jpg/v1/fill/w_933,h_530,al_c,q_90,usm_0.66_1.00_0.01/b9f28a_3eb4b8482ac44738b1721967c5be8c99.webp"><p class ="pic"> Map </p>  </a><!--
+    
+    --><a class = "border" href="https://www.google.com"> 
+    <img  class = "food" src = "https://static.wixstatic.com/media/b9f28a_3eb4b8482ac44738b1721967c5be8c99.jpg/v1/fill/w_933,h_530,al_c,q_90,usm_0.66_1.00_0.01/b9f28a_3eb4b8482ac44738b1721967c5be8c99.webp"><p class ="pic"> Catering </p>  </a>
+    
+   
    </div>
    
     
   </body>
+
+  
+ 
   
 
 </html>
