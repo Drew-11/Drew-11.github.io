@@ -103,9 +103,7 @@ html, body {
               filter: grayscale(50%);
               }
 
-        filter: grayscale(0%);
         
-      }
       .pic {
                  display: block;
                  position: absolute;
@@ -120,5 +118,5 @@ html, body {
                  
                  }
       
-        a.border:hover .food { filter: grayscale(50%);}
+        a.border:hover .food { filter: grayscale(0%);}
         a.border:hover .pic { background-color: red;}
