@@ -101,9 +101,11 @@ html, body {
               vertical-align: top;
               overflow: hidden;
               filter: grayscale(50%);
-             
-              
               }
+
+        filter: grayscale(0%);
+        
+      }
       .pic {
                  display: block;
                  position: absolute;
@@ -117,3 +119,6 @@ html, body {
                  background-color:rgb(200, 20, 30, .3);
                  
                  }
+      
+        a.border:hover .food { filter: grayscale(50%);}
+        a.border:hover .pic { background-color: red;}
