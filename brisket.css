@@ -1,4 +1,6 @@
 html, body {
+             height: 100%;
+             width: 100%;
              margin: 0;
              padding: 0; 
              border: 0; 
@@ -39,7 +41,11 @@ html, body {
               font: smaller;
               line-height: 50px; 
               min-width: 60px;
+          
               }
+           .text:hover {
+             color: black;
+           }
       .title { 
                position: relative; 
                top: 50px; 
@@ -56,44 +62,31 @@ html, body {
                }
                div.test { 
                    position: relative;
-                   min-width: 200px;
+                
+                   min-width: 400px;
                    margin: 0px;
                    vertical-align: top;
                    border: 1px solid black;
                    top: 50px;
-                 
+                   overflow: hidden;
+                   object-fit: cover;
            }
-      div.menu {
-              position: relative; 
-              display: inline-block;
-             border: 1px solid black;
-              right: 0px;
-              width: 50%; 
-              height: auto;
-              min-width: 100px;
-              margin: 0px;
-              margin-right: 0px;
-              margin-left: 0px;
-              margin-bottom: 0px;
-              padding: 0px;
-              object-fit: cover;
-              vertical-align: top;
-              
-              }
+      
       a.border { position: relative; 
               display: inline-block;
-             
               right: 0px;
               width: 50%; 
               height: auto;
-              min-width: 100px;
+              vertical-align: top;
               margin: 0px;
               margin-right: 0px;
               margin-left: 0px;
               margin-bottom: 0px;
               padding: 0px;
               object-fit: cover;
-              vertical-align: top; 
+              overflow: hidden;
+              min-width: 200px;
+              
              
             
                 }
@@ -101,9 +94,14 @@ html, body {
              display: block;
              position: static;
               width: 100%; 
-              height: auto;
-              min-width: 100px;
+              height: 40vh;
+              min-width: 200px;
+              min-height: 50px;
               object-fit: cover;
+              vertical-align: top;
+              overflow: hidden;
+              filter: grayscale(50%);
+             
               
               }
       .pic {
@@ -111,9 +109,11 @@ html, body {
                  position: absolute;
                  top: 50%; 
                  left: 50%; 
-                 color: red;
+                 color: white;
                  font-size: 2em;
                  margin: 0px;
                  padding: 0px;
                  transform: translate(-50%, -50%);
+                 background-color:rgb(200, 20, 30, .3);
+                 
                  }
