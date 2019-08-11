@@ -62,7 +62,7 @@ html, body {
                }
                div.test { 
                    position: relative;
-                
+                   width: 100%
                    min-width: 400px;
                    margin: 0px;
                    vertical-align: top;
