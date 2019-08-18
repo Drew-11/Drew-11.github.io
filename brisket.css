@@ -16,7 +16,7 @@ html, body {
               width: 100%;
               height: 50px;
               z-index: 1;
-              min-width: 600px;
+              min-width: 500px;
               border: 1px solid black;
             }
       .img {
@@ -41,6 +41,7 @@ html, body {
               font: smaller;
               line-height: 50px; 
               min-width: 60px;
+              font-size: 3vw;
           
               }
            .text:hover {
@@ -62,7 +63,7 @@ html, body {
                div.test { 
                    position: relative;
                    width: 100%
-                   min-width: 400px;
+                   min-width: 200px;
                    margin: 0px;
                    vertical-align: top;
                    border: 1px solid black;
@@ -84,7 +85,7 @@ html, body {
               padding: 0px;
               object-fit: cover;
               overflow: hidden;
-              min-width: 200px;
+              min-width: 100px;
               
              
             
@@ -94,7 +95,7 @@ html, body {
              position: static;
               width: 100%; 
               height: 40vh;
-              min-width: 200px;
+              min-width: 100px;
               min-height: 50px;
               object-fit: cover;
               vertical-align: top;
