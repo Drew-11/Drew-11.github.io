@@ -33,7 +33,7 @@ html, body {
              display: inline-block;
              position: relative;
              vertical-align: top;
-             text-align: center;
+          
              }
       .text {
               position: relative;
@@ -48,7 +48,7 @@ html, body {
               margin-bottom: 0px; 
               padding: 0; 
               text-align: center; 
-              font: smaller;
+             
               line-height: 50px; 
               min-width: 60px;
               font-size: 2vw;
