@@ -24,8 +24,8 @@ html, body {
       .links {
              border: 1px solid black;
              position: relative;
-             dislay: inline-block;
-             width: 70%;
+             display: inline-block;
+             width: calc(100% -100px);
              text-align: center;
              }
       .img {
