@@ -24,7 +24,7 @@ html, body {
       .links {
              border: 1px solid black;
              position: relative;
-             dipslay: inline-block;
+             dislay: inline-block;
              width: 70%;
              text-align: center;
              }
