@@ -5,6 +5,7 @@ html, body {
              padding: 0; 
              border: 0; 
              background-image: url("bricks.jpg");
+             display: inline-block;
              
              }
              
@@ -18,13 +19,14 @@ html, body {
               height: 50px;
               z-index: 1;
               min-width: 200px;
-              border: 1px solid black;
+              
             }
       .links {
              border: 1px solid black;
              position: relative;
              dipslay: inline-block;
-             width: calc(100% - 100px);
+             width: calc(100% - 105px);
+             text-align: center;
              }
       .img {
              max-height: 100%;
