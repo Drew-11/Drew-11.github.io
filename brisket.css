@@ -25,7 +25,7 @@ html, body {
            
              position: relative;
              display: inline-block;
-             width: calc(100vw - 90px);
+             width: calc(100vw - 100px);
              text-align: center;
              border: 1px solid black;
              margin-right: 0; 
