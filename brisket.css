@@ -28,6 +28,12 @@ html, body {
              width: calc(100vw - 100px);
              text-align: center;
              border: 1px solid black;
+             margin-right: 0; 
+              margin-left: 0
+              margin-top: 0px; 
+              margin-bottom: 0px; 
+              padding: 0; 
+              text-align: cente
              }
       .img {
              max-height: 100%;
