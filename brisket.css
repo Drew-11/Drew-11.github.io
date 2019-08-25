@@ -21,6 +21,22 @@ html, body {
               min-width: 200px;
               
             }
+      
+ 
+      .symbol {
+             max-height: 100%;
+             display: inline-block;
+             position: relative;
+             vertical-align: top;
+          
+             }
+      .logo {
+              display: block;
+             position: static;
+              max-height: 100%;
+        
+        
+           } 
       .links {
            
              position: relative;
@@ -33,14 +49,6 @@ html, body {
               margin-top: 0px; 
               margin-bottom: 0px; 
               padding: 0; 
-
-             }
-      .symbol {
-             max-height: 100%;
-             display: inline-block;
-             position: relative;
-             vertical-align: top;
-          
              }
       .text {
               position: relative;
