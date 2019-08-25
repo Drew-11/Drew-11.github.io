@@ -39,11 +39,11 @@ html, body {
               position: relative;
               top: 0;
               height: 95%;
-              width: 6%;
+              width: 5%;
               display: inline-block;
               color: white;
-              margin-right: 2%; 
-              margin-left: 2%;
+              margin-right: 1.5%; 
+              margin-left: 1.5%;
               margin-top: 0px; 
               margin-bottom: 0px; 
               padding: 0; 
@@ -60,7 +60,7 @@ html, body {
       .title { 
                position: relative; 
                top: 50px; 
-               height: auto;
+               
                text-align: center;
                background-color: black; 
                color: #800000;
