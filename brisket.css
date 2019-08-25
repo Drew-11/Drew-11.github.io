@@ -27,6 +27,7 @@ html, body {
              display: inline-block;
              width: calc(100% - 100px);
              text-align: center;
+             border: 1px solid black;
              }
       .img {
              max-height: 100%;
@@ -39,7 +40,7 @@ html, body {
               position: relative;
               top: 0;
               height: 95%;
-              width: 5%;
+              width: 6%;
               display: inline-block;
               color: white;
               margin-right: 1vw; 
@@ -51,7 +52,7 @@ html, body {
              
               line-height: 50px; 
               min-width: 60px;
-              font-size: 2vw;
+              font-size: 1.5vw;
           
               }
            .text:hover {
