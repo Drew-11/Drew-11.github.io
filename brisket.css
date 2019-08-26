@@ -28,11 +28,12 @@ html, body {
              display: inline-block;
              position: relative;
              vertical-align: top;
+             border: 1px solid black;
           
              }
       .logo {
               display: block;
-             position: static;
+             position: relative;
               max-height: 100%;
         
         
